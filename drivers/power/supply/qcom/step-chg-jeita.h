@@ -16,6 +16,8 @@ struct step_chg_jeita_param {
 	char			*prop_name;
 	int			hysteresis;
 	bool			use_bms;
+	int			rise_hys;
+	int			fall_hys;
 };
 
 struct range_data {
